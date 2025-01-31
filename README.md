@@ -40,11 +40,9 @@ the list of objects to create to deploy the application (deployments, services, 
  Create and apply the yaml manifest to deploy this application.
  Check the operation of the application via its web interface (using the
 web browser). What is the hash rate.
- Reserve the following resources to hash:
+ Reserve the following resources to hash: The limit of each resource is twice the reserved value.
 - CPU: 0.1
 - Memory: 300 Mi
-The limit of each resource is twice the reserved value.
- Configure the hasher autoscaling with the following parameters:
-scale out if the average CPU load exceeds 50%
-◦ Min number of replicas: 1
-◦ Max number of replicas: 5
+ Configure the hasher autoscaling with the following parameters: scale out if the average CPU load exceeds 50%
+- Min number of replicas: 1
+- Max number of replicas: 5
