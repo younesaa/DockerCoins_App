@@ -45,7 +45,6 @@ web browser). What is the hash rate.
 - Memory: 300 Mi
 The limit of each resource is twice the reserved value.
  Configure the hasher autoscaling with the following parameters:
-2
-◦ scale out if the average CPU load exceeds 50%
+scale out if the average CPU load exceeds 50%
 ◦ Min number of replicas: 1
 ◦ Max number of replicas: 5
